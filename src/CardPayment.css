@@ -1,0 +1,43 @@
+.card-box {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: Arial;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+.card-input:focus {
+  border-color: #007bff;
+}
+
+.card-btn {
+  width: 95%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card-btn:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,31 @@
+.pay-box {
+  padding: 20px;
+  margin: 25px auto;
+  width: 350px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+  font-family: Arial;
+}
+
+.pay-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.pay-select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #888;
+  font-size: 16px;
+}
+
+.pay-method-box {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}

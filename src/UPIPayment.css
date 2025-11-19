@@ -1,0 +1,62 @@
+.upi-box {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 25px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.upi-title {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.upi-input {
+  width: 90%;
+  padding: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.upi-input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+.upi-btn {
+  width: 95%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upi-btn:hover {
+  background: #45a049;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
